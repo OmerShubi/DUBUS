@@ -1,5 +1,13 @@
 # DUBUS - Dublin Bus Trips :bus::bus::bus:
 
+IMPORTANT NOTE
+==============
+
+:loudspeaker:**The below provides a short overview of the project + an installation guide. 
+For the full descriptions, explanations and such please see [Lab4_Main](./Lab4_Main.ipynb)**:loudspeaker:
+
+
+
 Table of contents
 =================
 
@@ -67,18 +75,21 @@ The project consists of multiple notebooks that work and interact together.
 
 - *[Lab1](./Lab1.ipynb)*, *[Lab2](./Lab2.ipynb)*, *[Lab3](./Lab3.ipynb)* - all the notebookes from the previoes tasks. In these notebookes you can reproduce some indices we created during the project. 
 
+
 Usage 
 =====
-Prerequisites:
-1. Databricks Cluster should be turned on
-2. VM should be turned on
 
-Then,
-On VM:
-```bash
-cd dubus_app
-sudo docker-compose up &
-```
+After performing the [installation steps](#installation), here is how to use the app in real time.
+
+Prerequisites:
+1. Databricks Cluster: should be turned on
+2. VM:
+   - Should be turned on
+   - Then, 
+   ```bash
+   cd dubus_app
+   sudo docker-compose up &
+   ```
 
 TODO Add how to use
 
@@ -93,12 +104,15 @@ The installation consists of two parts - Frontend & Backend.
 We assume that databricks and the VM are configured to be able to communicate with each other securely.
 
 ### Frontend
+
+DataBricks - Tested on Databricks Runtime Version `6.4` which includes Apache Spark `2.4.5`, Scala `2.11` and python `3`.
+
 1. Clone the repository into your databricks workspace - `git clone https://github.com/scaperex/DUBUS.git` 
 2. Assuming `conda` is installed, install the necessary packages by `conda create -f enviroment.yml`
 3. Activate the environment with `conda activate <env_name>`
-4. Install additional components - ElasticBridge TODO 
+4. Install additional components - ElasticSearch-Spark. To install the Elastic connector (sink) follow the [DataBricks Documentation](https://docs.databricks.com/libraries/cluster-libraries.html). Specifically, our code uses `elasticsearch_spark_20_2_11_7_9_3.jar`. Download and install it from [Elastic](https://www.elastic.co/guide/en/elasticsearch/hadoop/current/install.html).
 
-Tested on TODO
+
 
 ### Backend
 This part is done on your VM (e.g. Azure).
@@ -125,4 +139,3 @@ TODO -
 1. Create requirement.txt / env.yml
 2. How to install EVERYTHING
 3. Think of params that need to be changed in CODE
-
