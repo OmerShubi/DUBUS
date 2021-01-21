@@ -1,9 +1,20 @@
 # DUBUS - Dublin Bus Trips :bus::bus::bus:
 
-## About
+Table of contents
+=================
+
+<!--ts-->
+  * [Project Overview](#project-overview)
+  * [Usage](#usage)
+  * [Installation](#installation)
+  
+<!--te-->
+
+
+Project Overview
+================
 TODO short description
 
-## Project Overview
 
 The project consists of multiple notebooks that work and interact together.
 
@@ -17,15 +28,31 @@ The project consists of multiple notebooks that work and interact together.
 
 - *[Lab4_functions](./Lab4_functions.ipynb)* includes all the functions we used through out the project. Includes back-end connection functions (such as connecting to Elastic) as well. 
 
+Usage 
+=====
+TODO Add how to use
 
-## Installation
+TODO More images and explanations
+![App Preview](https://drive.google.com/uc?id=14B5RuYNOmYzgGg-8bkhVkZMxHaiNLVV4)
+
+
+
+
+Installation
+============
+
+The installation consists of two parts - Frontend & Backend.
+
+### Frontend
+1. Clone the repository into your databricks workspace - `git clone https://github.com/scaperex/DUBUS.git` 
+2. Assuming `conda` is installed, install the necessary packages by `conda create -f enviroment.yml`
+3. Activate the environment with `conda activate <env_name>`
+4. Install additional components - ElasticBridge TODO 
+
+### Backend
+
 TODO - 
 1. Create requirement.txt / env.yml
 2. How to install EVERYTHING
 3. Think of params that need to be changed in CODE
 
-## Usage 
-TODO Add how to use
-
-TODO More images and explanations
-![App Preview](https://drive.google.com/uc?id=14B5RuYNOmYzgGg-8bkhVkZMxHaiNLVV4)
