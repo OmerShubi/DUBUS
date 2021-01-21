@@ -13,7 +13,26 @@ Table of contents
 
 Project Overview
 ================
-TODO short description
+
+In this part we define a task over the Dublin dataset based on one of the paper *Overview of Data Exploration Techniques* by Stratos Idreos (Harvard), Olga Papaemmanouil (Brandeis) and Surajit Chaudhuri (Microsoft Research). 
+
+We present an application that allows the user to do **modern-day data exploration**. 
+
+More spcifically, we provide a collection of advanced visualization & data exploration tools, bundled in a convinient interface. 
+In part it allows the user to: 
+1. Dynamic overview of the data that they uploaded via an interactive dashboard.
+2. Perform further investigation of the data in an intuitive, code-less way, using state-of-the-art tools.
+3. Quick query result estimation and visualization using sampled data.
+
+
+### Link to our application: [DUBUS - Dublin Bus Trips - Analytics](https://eastus.azuredatabricks.net/?o=6694791539123117#notebook/2483473424244723/dashboard/1109751670127317/present)
+
+Notes,
+
+1. As we are displaying our app inside the Databricks, you must have a valid Databricks account inorder to interact with the app. 
+2. The server must be on for the app to work.
+3. Due to security limitations, first-time visitors must first open [this link](https://da2020w-0001.eastus.cloudapp.azure.com:5601) in their browser, allow the necessary permissions, and only then the app will be displayed correctly.
+4. To avoid reruning the whole process on changes in filters, open the [databricks notebook](https://eastus.azuredatabricks.net/?o=6694791539123117#notebook/2483473424244723/command/1109751670127311) make sure that the databricks widgets option in the notebook is set to `on_widget_change: do nothing`
 
 
 The project consists of multiple notebooks that work and interact together.
