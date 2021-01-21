@@ -29,14 +29,14 @@ In this project we presnt our application.
 
 The first part of the application includes an interactive map that displays the journeys with congestion, from uploaded stream or batch bus data.
 
-![App Preview1](https://drive.google.com/uc?id=14B5RuYNOmYzgGg-8bkhVkZMxHaiNLVV4)
+![App Preview1](./App1.jpeg)
 
 ### Link to our application: [DUBUS - Dublin Bus Trips - congesntion](https://eastus.azuredatabricks.net/?o=6694791539123117#notebook/1325942436209506/dashboard/1325942436209514/present)
 
 The second part of the application includes modern-day data exploration tools, bundled in a convinient interface.
 
 Part of the app:
-![App Preview2](https://drive.google.com/uc?id=12eZIJ2J3cffro4nQCXi-IHiD2eXfxUjx)
+![App Preview2](./App2.png)
 
 
 ### Link to our application: [DUBUS - Dublin Bus Trips - Analytics](https://eastus.azuredatabricks.net/?o=6694791539123117#notebook/2483473424244723/dashboard/1109751670127317/present)
