@@ -1,10 +1,13 @@
 # DUBUS - Dublin Bus Trips :bus::bus::bus:
 
-IMPORTANT NOTE
-==============
 
-:loudspeaker:**The below provides a short overview of the project + an installation guide. 
-For the full descriptions, explanations and such please see [Lab4_Main](./Lab4_Main.ipynb)**:loudspeaker:
+
+# IMPORTANT NOTE :loudspeaker::loudspeaker::loudspeaker:
+
+**The below provides a short overview of the project + an installation guide. 
+For the full descriptions, explanations and such please see [Lab4_Main](./Lab4_Main.html)**
+
+:loudspeaker::loudspeaker::loudspeaker:
 
 
 
@@ -33,6 +36,8 @@ The first part of the application includs:
   3. uploads the result to our Elastic DB,
 4. Finally it  displays the journeys (journeyPatternId) with congestion on an interactive map.
 
+![App Preview](https://drive.google.com/uc?id=14B5RuYNOmYzgGg-8bkhVkZMxHaiNLVV4)
+
 ### Link to our application: [DUBUS - Dublin Bus Trips - congesntion](https://eastus.azuredatabricks.net/?o=6694791539123117#notebook/1325942436209506/dashboard/1325942436209514/present)
 
 The second part of the application includs:
@@ -42,6 +47,10 @@ In part it allows the user to:
 1. Dynamic overview of the data that they uploaded via an interactive dashboard.
 2. Perform further investigation of the data in an intuitive, code-less way, using state-of-the-art tools.
 3. Quick query result estimation and visualization using sampled data.
+
+Demo of the interactive dashboard:
+![App Preview](https://drive.google.com/uc?id=12eZIJ2J3cffro4nQCXi-IHiD2eXfxUjx)
+
 
 ### Link to our application: [DUBUS - Dublin Bus Trips - Analytics](https://eastus.azuredatabricks.net/?o=6694791539123117#notebook/2483473424244723/dashboard/1109751670127317/present)
 
@@ -73,7 +82,7 @@ The project consists of multiple notebooks that work and interact together.
 
 - *[Lab4_functions](./Lab4_functions.ipynb)* includes all the functions we used through out the project. Includes back-end connection functions (such as connecting to Elastic) as well. 
 
-- *[Lab1](./Lab1.ipynb)*, *[Lab2](./Lab2.ipynb)*, *[Lab3](./Lab3.ipynb)* - all the notebookes from the previoes tasks. In these notebookes you can reproduce some indices we created during the project. 
+- *[Lab1](./Lab1.ipynb)*, *[Lab2](./Lab2.ipynb)*, *[Lab3](./Lab3.ipynb)* - all the notebookes from the previous tasks. In these notebookes you can reproduce some indices we created during the project. 
 
 
 Usage 
@@ -90,11 +99,15 @@ Prerequisites:
    cd dubus_app
    sudo docker-compose up &
    ```
+   
+If this is your first time running the app, you will need to set up the Elastic indices. 
+
+To do so, follow *[Lab1](./Lab1.ipynb)*, *[Lab2](./Lab2.ipynb)* and *[Lab3](./Lab3.ipynb)* to reproduce the relevant indices. 
+Additionally, you might need to modify the Kibana dashboards to match the newly created indices, as these are configured per installation. 
+
+
 
 TODO Add how to use
-
-TODO More images and explanations
-![App Preview](https://drive.google.com/uc?id=14B5RuYNOmYzgGg-8bkhVkZMxHaiNLVV4)
 
 
 Installation
@@ -128,14 +141,8 @@ This part is done on your VM (e.g. Azure).
    sudo chmod +x /usr/local/bin/docker-compose
    ```
    This uninstalls if already installed, then downloads and installs both Docker and docker-compose.
-
-Note: 
-Databricks requires embedded webpages to support the HTTPS standard for secure connections.
-Therefore, you must set up a SSL Certificate. For production environments see for example [cloudflare](https://www.cloudflare.com/ssl/).
-For development enviroments you may create a certificate for example with [elasticsearch-certutil](https://www.elastic.co/guide/en/elasticsearch/reference/7.10/certutil.html) and save the key as `kibana-server.p12` in the same directory as the docker-compose file.
-
-
-TODO - 
-1. Create requirement.txt / env.yml
-2. How to install EVERYTHING
-3. Think of params that need to be changed in CODE
+4. Note: Databricks requires embedded webpages to support the HTTPS standard for secure connections. Therefore, you must set up a SSL Certificate. For production environments see for example [cloudflare](https://www.cloudflare.com/ssl/). For development enviroments you may create a certificate for example with [elasticsearch-certutil](https://www.elastic.co/guide/en/elasticsearch/reference/7.10/certutil.html) and save the key as `kibana-server.p12` in the same directory as the project file. 
+5. The docker-compose.yml contains all the configurations needed to setup the elastic and kibana containers, network and volumes. Run it with:
+   ```bash
+   sudo docker-compose up &
+   ```
