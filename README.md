@@ -42,6 +42,7 @@ Installation
 ============
 
 The installation consists of two parts - Frontend & Backend.
+We assume that databricks and the VM are configured to be able to communicate with each other securely.
 
 ### Frontend
 1. Clone the repository into your databricks workspace - `git clone https://github.com/scaperex/DUBUS.git` 
@@ -50,6 +51,18 @@ The installation consists of two parts - Frontend & Backend.
 4. Install additional components - ElasticBridge TODO 
 
 ### Backend
+This part is done on your VM (e.g. Azure).
+
+1. Create an empty directory - `mkdir lab1`
+2. cd into it - `cd lab1`
+3. Install [docker](https://www.docker.com/) and [docker compose](https://docs.docker.com/compose/) 
+   1. Uninstall if already installed - `sudo apt-get remove docker docker-engine docker.io containerd runc`
+   2. Download Docker -  `curl -fsSL https://get.docker.com -o get-docker.sh`
+   3. Install Docker - `sudo sh get-docker.sh`
+   4. Download Docker-compose - `sudo curl -L "https://github.com/docker/compose/releases/download/1.27.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose`
+   5. Install Docker-compose - `sudo chmod +x /usr/local/bin/docker-compose`
+
+
 
 TODO - 
 1. Create requirement.txt / env.yml
