@@ -2,7 +2,7 @@
 
 
 
-# :loudspeaker::loudspeaker::loudspeaker: IMPORTANT NOTE :loudspeaker::loudspeaker::loudspeaker:
+## :loudspeaker::loudspeaker::loudspeaker: IMPORTANT NOTE :loudspeaker::loudspeaker::loudspeaker:
 
 **The below provides a short overview of the project + an installation guide. 
 For the full descriptions, explanations and such please see [Lab4_Main](./Lab4_Main.html)**
@@ -25,7 +25,7 @@ Table of contents
 Project Overview
 ================
 
-In this project we presnt our application.
+In this project we present our application.
 
 The first part of the application includes an interactive map that displays the journeys with congestion, from uploaded stream or batch bus data.
 
@@ -137,3 +137,4 @@ This part is done on your VM (e.g. Azure).
    ```bash
    sudo docker-compose up &
    ```
+Note, you might need to modify some paths according to your host system.
