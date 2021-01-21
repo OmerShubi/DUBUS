@@ -1,0 +1,9 @@
+sklearn==0.20.3
+scipy==1.2.1
+pyspark==2.4.6.dev0
+elasticsearch==(7, 10, 1)
+pandas==0.24.2
+matplotlib==3.0.3
+numpy==1.16.2
+IPython==7.4.0
+libify
