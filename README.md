@@ -34,7 +34,7 @@ The first part of the application includes an interactive map that displays the 
 The second part of the application includes modern-day data exploration tools, bundled in a convinient interface.
 
 Part of the app:
-![App Preview2](./App2.png | width=50)
+![App Preview2](./App2.png)
 
 ## Notes:
 We provide full explanations on how to set up and get the app up and running on **your** system as well.
