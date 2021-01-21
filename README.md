@@ -37,8 +37,6 @@ In part it allows the user to:
 
 ### Link to our application: [DUBUS - Dublin Bus Trips - Analytics](https://eastus.azuredatabricks.net/?o=6694791539123117#notebook/2483473424244723/dashboard/1109751670127317/present)
 
-%md 
-
 ## Notes:
 We provide full explanations on how to set up and get the app up and running on **your** system as well.
 
@@ -67,7 +65,7 @@ The project consists of multiple notebooks that work and interact together.
 
 - *[Lab4_functions](./Lab4_functions.ipynb)* includes all the functions we used through out the project. Includes back-end connection functions (such as connecting to Elastic) as well. 
 
-- *[Lab1](./Lab1.ipynb), *[Lab2](./Lab2.ipynb), *[Lab3](./Lab3.ipynb) - all the notebookes from the previoes tasks. In these notebookes you can reproduce some indices we created during the project. 
+- *[Lab1](./Lab1.ipynb)*, *[Lab2](./Lab2.ipynb)*, *[Lab3](./Lab3.ipynb)* - all the notebookes from the previoes tasks. In these notebookes you can reproduce some indices we created during the project. 
 
 Usage 
 =====
