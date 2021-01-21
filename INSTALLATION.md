@@ -40,10 +40,10 @@ This part is done on your VM (e.g. Azure).
 
 If this is your first time running the app, you will need to set up the Elastic indices.
 
-To do so, follow *[Lab1](./Lab1.ipynb)*, *[Lab2](./Lab2.ipynb)* and *[Lab3](./Lab3.ipynb)* to reproduce the relevant indices. 
+To do so, follow *[Lab1](code/Lab1.ipynb)*, *[Lab2](code/Lab2.ipynb)* and *[Lab3](code/Lab3.ipynb)* to reproduce the relevant indices. 
 
 Additionally, you might need to modify the Kibana dashboards to match the newly created indices, as these are configured per installation. 
 
-Additionally, you might need to modify some paths, such as the IP of the VM, in the *[Lab4_functions](./Lab4_functions.ipynb)* `Global Parameters` section.
+Additionally, you might need to modify some paths, such as the IP of the VM, in the *[Lab4_functions](code/Lab4_functions.ipynb)* `Global Parameters` section.
 
 Finally, run *Lab4_UI_part1.ipynb* and *Lab4_UI_part2.ipynb*.
