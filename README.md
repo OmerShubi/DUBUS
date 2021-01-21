@@ -32,7 +32,7 @@ The first part of the application includes an interactive map that displays the 
 <img src='assets/App1.jpeg' width=600/>
  
 
-The second part of the application includes modern-day data exploration tools, bundled in a convinient interface.
+The second part of the application includes modern-day data exploration tools, bundled in a convenient interface.
 
 Part of the app:
 
