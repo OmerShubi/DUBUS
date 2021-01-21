@@ -5,7 +5,8 @@
 ## :loudspeaker::loudspeaker::loudspeaker: IMPORTANT NOTE :loudspeaker::loudspeaker::loudspeaker:
 
 **The below provides a short overview of the project + an installation guide. 
-For the full descriptions, explanations and such please see [Lab4_Main](code/Lab4_Main.html)!** :lotus_position:
+For the full descriptions, explanations and such please see the [Main notebook](https://scaperex.github.io/DUBUS/) 
+or download it[Lab4_Main](Lab4_Main.html)!** :lotus_position:
 
 
 
@@ -41,7 +42,7 @@ Part of the app:
 Usage 
 =====
 
-The project consists of multiple notebooks that work and interact together. For the full descriptions, explanations and such please see [Lab4_Main.html](code/Lab4_Main.html).
+The project consists of multiple notebooks that work and interact together. For the full descriptions, explanations and such please see [Main notebook](https://scaperex.github.io/DUBUS/).
 
 - *[Lab4_Main.ipynb](code/Lab4_Main.ipynb)* includes explanations and descriptions about Part 1 (Preprocessing & App) and Part 2 (EDA, Article and App).
 
@@ -70,7 +71,7 @@ Notes,
 
 1. As we are displaying our app inside the Databricks, you must have a valid Databricks account inorder to interact with the app. 
 2. The VM server must be on for the app to work.
-3. There are security limitations. Please see the notes in [Lab4_Main.html](code/Lab4_Main.html) on how to deal with them.
+3. There are security limitations. Please see the notes in [Lab4_Main.html](Lab4_Main.html) on how to deal with them.
 
 Installation
 ============
