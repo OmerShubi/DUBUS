@@ -5,7 +5,7 @@
 ## :loudspeaker::loudspeaker::loudspeaker: IMPORTANT NOTE :loudspeaker::loudspeaker::loudspeaker:
 
 **The below provides a short overview of the project + an installation guide. 
-For the full descriptions, explanations and such please see [Lab4_Main](./Lab4_Main.html)**
+For the full descriptions, explanations and such please see [Lab4_Main](./Lab4_Main.html)!** :lotus_position:
 
 
 
@@ -34,7 +34,7 @@ The first part of the application includes an interactive map that displays the 
 The second part of the application includes modern-day data exploration tools, bundled in a convinient interface.
 
 Part of the app:
-![App Preview2](./App2.png)
+![App Preview2](./App2.png | width=50)
 
 ## Notes:
 We provide full explanations on how to set up and get the app up and running on **your** system as well.
