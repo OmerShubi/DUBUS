@@ -6,7 +6,7 @@
 
 **The below provides a short overview of the project + an installation guide. 
 For the full descriptions, explanations and such please see the [Main notebook](https://scaperex.github.io/DUBUS/) 
-or download it[Lab4_Main](Lab4_Main.html)!** :lotus_position:
+or download it from [Lab4_Main](Lab4_Main.html)!** :lotus_position:
 
 
 
