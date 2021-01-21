@@ -1,0 +1,53 @@
+version: '2.2'
+services:
+  es01:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.9.3
+    container_name: es01
+    environment:
+      - cluster.name=easy_config
+      - node.name=es01
+      - discovery.type=single-node
+      - bootstrap.memory_lock=true
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+      - http.cors.enabled=true
+      - http.cors.allow-origin=*
+      - network.host=_site_
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    volumes:
+      - data01:/usr/share/elasticsearch/data
+    ports:
+      - 9200:9200
+    networks:
+      - elastic
+
+  kib01:
+    image: docker.elastic.co/kibana/kibana:7.9.3
+    container_name: kib01
+    ports:
+      - 5601:5601
+    environment:
+      ELASTICSEARCH_URL: http://es01:9200
+      ELASTICSEARCH_HOSTS: http://es01:9200
+      SERVER_SSL_KEYSTORE_PATH: "/app/kibana-server.p12"
+      SERVER_SSL_KEYSTORE_PASSWORD: "abcd1234"
+      SERVER_SSL_ENABLED: "true"
+    volumes:
+      - /home/vmadmin/elasticsearch-7.10.1/keys:/app
+    networks:
+      - elastic
+
+volumes:
+  data01:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: /StudentData
+
+
+networks:
+  elastic:
+    driver: bridge
