@@ -25,16 +25,18 @@ Table of contents
 Project Overview
 ================
 
-In this project we present our application.
 
 The first part of the application includes an interactive map that displays the journeys with congestion, from uploaded stream or batch bus data.
 
-![App Preview1](./App1.jpeg)
+<img src='./App1.jpeg' width=600/>
+ 
 
 The second part of the application includes modern-day data exploration tools, bundled in a convinient interface.
 
 Part of the app:
-![App Preview2](./App2.png)
+
+<img src='./App2.png' width=600/>
+
 
 ## Notes:
 We provide full explanations on how to set up and get the app up and running on **your** system as well.
