@@ -50,8 +50,15 @@ The project consists of multiple notebooks that work and interact together.
 Usage 
 =====
 Prerequisites:
-1. Turn on your Databricks Cluster
-2. Turn on your 
+1. Databricks Cluster should be turned on
+2. VM should be turned on
+
+Then,
+On VM:
+```bash
+cd dubus_app
+sudo docker-compose up &
+```
 
 TODO Add how to use
 
@@ -76,15 +83,22 @@ Tested on TODO
 ### Backend
 This part is done on your VM (e.g. Azure).
 
-1. Create an empty directory - `mkdir lab1`
-2. cd into it - `cd lab1`
-3. Install [docker](https://www.docker.com/) and [docker compose](https://docs.docker.com/compose/) 
-   1. Uninstall if already installed - `sudo apt-get remove docker docker-engine docker.io containerd runc`
-   2. Download Docker -  `curl -fsSL https://get.docker.com -o get-docker.sh`
-   3. Install Docker - `sudo sh get-docker.sh`
-   4. Download Docker-compose - `sudo curl -L "https://github.com/docker/compose/releases/download/1.27.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose`
-   5. Install Docker-compose - `sudo chmod +x /usr/local/bin/docker-compose`
+1. Create an empty directory - `mkdir dubus_app`
+2. cd into it - `cd dubus_app`
+3. Install [docker](https://www.docker.com/) and [docker compose](https://docs.docker.com/compose/):
+   ```bash
+   sudo apt-get remove docker docker-engine docker.io containerd runc
+   curl -fsSL https://get.docker.com -o get-docker.sh
+   sudo sh get-docker.sh
+   sudo curl -L "https://github.com/docker/compose/releases/download/1.27.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+   sudo chmod +x /usr/local/bin/docker-compose
+   ```
+   This uninstalls if already installed, then downloads and installs both Docker and docker-compose.
 
+Note: 
+Databricks requires embedded webpages to support the HTTPS standard for secure connections.
+Therefore, you must set up a SSL Certificate. For production environments see for example [cloudflare](https://www.cloudflare.com/ssl/).
+For development enviroments you may create a certificate for example with [elasticsearch-certutil](https://www.elastic.co/guide/en/elasticsearch/reference/7.10/certutil.html) and save the key as `kibana-server.p12` in the same directory as the docker-compose file.
 
 
 TODO - 
