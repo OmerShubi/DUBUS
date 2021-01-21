@@ -131,8 +131,8 @@ This part is done on your VM (e.g. Azure).
    ```
    This uninstalls if already installed, then downloads and installs both Docker and docker-compose.
 4. Note: Databricks requires embedded webpages to support the HTTPS standard for secure connections. Therefore, you must set up a SSL Certificate. For production environments see for example [cloudflare](https://www.cloudflare.com/ssl/). For development enviroments you may create a certificate for example with [elasticsearch-certutil](https://www.elastic.co/guide/en/elasticsearch/reference/7.10/certutil.html) and save the key as `kibana-server.p12` in the same directory as the project file. 
-5. The docker-compose.yml contains all the configurations needed to setup the elastic and kibana containers, network and volumes. Run it with:
+5. The docker-compose.yml contains all the configurations needed to setup the elastic and kibana containers, network and volumes. Under the `volumes` section, update the paths according to your host system configuration if needed. Then, run it with:
    ```bash
    sudo docker-compose up &
    ```
-Note, you might need to modify some paths according to your host system.
+
