@@ -47,6 +47,9 @@ The project consists of multiple notebooks that work and interact together.
 
 - *[Lab4_functions](./Lab4_functions.ipynb)* includes all the functions we used through out the project. Includes back-end connection functions (such as connecting to Elastic) as well. 
 
+TODO Lab 1/2/3, hydration andsuch
+
+
 Usage 
 =====
 Prerequisites:
