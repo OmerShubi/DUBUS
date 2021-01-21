@@ -46,7 +46,7 @@ The project consists of multiple notebooks that work and interact together. For 
 
 - *[Lab4_Main.ipynb](code/Lab4_Main.ipynb)* includes explanations and descriptions about Part 1 (Preprocessing & App) and Part 2 (EDA, Article and App).
 
-- *[Lab4_Preparations.ipynb](code/Lab4_Preparations.ipynb)*, *[Lab4_UI_part1.ipynb](code/Lab4_UI_part1.ipynb)*, *[Lab4_UI_part2.ipynb](code/Lab4_UI_part2.ipynb)* and *[Lab4_functions.ipynb](code/Lab4_functions.ipynb)* hold the code used in the project. 
+- *[Lab4_Preparations.ipynb](code/Lab4_preparations.ipynb)*, *[Lab4_UI_part1.ipynb](code/Lab4_UI_part1.ipynb)*, *[Lab4_UI_part2.ipynb](code/Lab4_UI_part2.ipynb)* and *[Lab4_functions.ipynb](code/Lab4_functions.ipynb)* hold the code used in the project. 
 
 - *[Lab1.ipynb](code/Lab1.ipynb)*, *[Lab2.ipynb](code/Lab2.ipynb)*, *[Lab3.ipynb](code/Lab3.ipynb)* - all the notebooks from the previous tasks. Used to reproduce helper indices. 
 
