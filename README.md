@@ -30,12 +30,14 @@ The project consists of multiple notebooks that work and interact together.
 
 Usage 
 =====
+Prerequisites:
+1. Turn on your Databricks Cluster
+2. Turn on your 
+
 TODO Add how to use
 
 TODO More images and explanations
 ![App Preview](https://drive.google.com/uc?id=14B5RuYNOmYzgGg-8bkhVkZMxHaiNLVV4)
-
-
 
 
 Installation
@@ -49,6 +51,8 @@ We assume that databricks and the VM are configured to be able to communicate wi
 2. Assuming `conda` is installed, install the necessary packages by `conda create -f enviroment.yml`
 3. Activate the environment with `conda activate <env_name>`
 4. Install additional components - ElasticBridge TODO 
+
+Tested on TODO
 
 ### Backend
 This part is done on your VM (e.g. Azure).
