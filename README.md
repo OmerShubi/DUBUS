@@ -105,11 +105,11 @@ We assume that databricks and the VM are configured to be able to communicate wi
 
 ### Frontend
 
-DataBricks - Tested on Databricks Runtime Version `6.4` which includes Apache Spark `2.4.5`, Scala `2.11` and python `3`.
+DataBricks - Tested on Databricks Runtime Version `6.4` which includes Apache Spark `2.4.5`, Scala `2.11` and python `3`. Specifically `pip 19.0.3` and `python 3.7.3`.
 
 1. Clone the repository into your databricks workspace - `git clone https://github.com/scaperex/DUBUS.git` 
-2. Assuming `pip` is installed (overwise install it), install the necessary packages by `pip install -r requirements.txt`
-4. Install additional components - ElasticSearch-Spark. To install the Elastic connector (sink) follow the [DataBricks Documentation](https://docs.databricks.com/libraries/cluster-libraries.html). Specifically, our code uses `elasticsearch_spark_20_2_11_7_9_3.jar`. Download and install it from [Elastic](https://www.elastic.co/guide/en/elasticsearch/hadoop/current/install.html).
+2. Assuming `pip` and `python` are installed (overwise install them), install the necessary packages by `pip install -r requirements.txt`
+3. Install additional components - ElasticSearch-Spark. To install the Elastic connector (sink) follow the [DataBricks Documentation](https://docs.databricks.com/libraries/cluster-libraries.html). Specifically, our code uses `elasticsearch_spark_20_2_11_7_9_3.jar`. Download and install it from [Elastic](https://www.elastic.co/guide/en/elasticsearch/hadoop/current/install.html).
 
 
 
