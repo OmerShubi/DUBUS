@@ -17,16 +17,17 @@ Table of contents
 
 <!--ts-->
   * [Project Overview](#project-overview)
-  * [Code Structure](#code-structure)
+  * [DUBUS - Dublin Bus Trips Congestion](#dubus-dublin-bus-trips-congestion)
   * [Usage](#usage)
+  * [Code Structure](#code-structure)
+  * [DUBUS - Dublin Bus Trips Analytics](#dubus-dublin-bus-trips-analytics)
   * [Installation](#installation)
-  
 <!--te-->
 
 
 Project Overview
 ================
-The app includes two parts - **DUBUS - Dublin Bus Trips Congestion** and  .
+The app includes two parts - **DUBUS - Dublin Bus Trips Congestion** and **DUBUS - Dublin Bus Trips Analytics**.
 
 DUBUS - Dublin Bus Trips Congestion
 -----------------------------------
