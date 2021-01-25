@@ -4,8 +4,10 @@
 
 ## :loudspeaker::loudspeaker::loudspeaker: IMPORTANT NOTE :loudspeaker::loudspeaker::loudspeaker:
 
-**The below provides a short overview of the project + an installation guide. 
-For the full descriptions, explanations and such please see the [Main notebook](https://scaperex.github.io/DUBUS/) 
+**The below provides a short overview of the project + an installation guide.**
+
+
+**For the Youtube demo, links to the app, full descriptions and explanations please see the [Main notebook](https://scaperex.github.io/DUBUS/) 
 or download it from [Lab4_Main](Lab4_Main.html)!** :lotus_position:
 
 
