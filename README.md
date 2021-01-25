@@ -17,6 +17,7 @@ Table of contents
 
 <!--ts-->
   * [Project Overview](#project-overview)
+  * [Code Structure](
   * [Usage](#usage)
   * [Installation](#installation)
   
@@ -25,66 +26,56 @@ Table of contents
 
 Project Overview
 ================
+The app includes two parts - **DUBUS - Dublin Bus Trips Congestion** and  .
 
-The project consists of multiple notebooks that work and interact together.
-
-*Lab4_Preparations* consists of the preprocessing part, in which we also train and save the ML model, and the relevant helper models (indexer and encoder, for categorical variables).
-
-*Lab4_UI_part1* - The front-end of the first part of our App.
-
-*Lab4_UI_part2* - The front-end of the second part of our App.
-
-*Lab4_functions* includes all the functions we used through out the project. Includes back-end connection functions (such as connecting to Elastic) as well. 
-
-In addition, *Lab4_Main*  includes explanations and descriptions about the reasoning behind Part 1 (Preprocessing & App) and Part 2 (EDA, Article and App). 
-
-The first part of the application includes an interactive map that displays the journeys with congestion, from uploaded stream or batch bus data.
+DUBUS - Dublin Bus Trips Congestion
+-----------------------------------
+This part of the application includes an interactive map that displays the journeys with congestion, from uploaded stream or batch bus data.
 
 <img src='assets/App1.jpeg' width=600/>
- 
 
-The second part of the application includes modern-day data exploration tools, bundled in a convenient interface.
+DUBUS - Dublin Bus Trips Analytics
+----------------------------------
+This part of the application includes modern-day data exploration tools, bundled in a convenient interface.
 
 Part of the app:
 
 <img src='assets/App2.png' width=600/>
 
-
 Usage 
 =====
 
-The project consists of multiple notebooks that work and interact together. For the full descriptions, explanations and such please see [Main notebook](https://scaperex.github.io/DUBUS/).
+DUBUS - Dublin Bus Trips Congestion is run from *[Lab4_UI_part1.ipynb](code/Lab4_UI_part1.ipynb)* and DUBUS - Dublin Bus Trips Analytics is run from *[Lab4_UI_part2.ipynb](code/Lab4_UI_part2.ipynb)*.
 
-- *[Lab4_Main.ipynb](code/Lab4_Main.ipynb)* includes explanations and descriptions about Part 1 (Preprocessing & App) and Part 2 (EDA, Article and App).
-
-- *[Lab4_Preparations.ipynb](code/Lab4_preparations.ipynb)*, *[Lab4_UI_part1.ipynb](code/Lab4_UI_part1.ipynb)*, *[Lab4_UI_part2.ipynb](code/Lab4_UI_part2.ipynb)* and *[Lab4_functions.ipynb](code/Lab4_functions.ipynb)* hold the code used in the project. 
-
-- *[Lab1.ipynb](code/Lab1.ipynb)*, *[Lab2.ipynb](code/Lab2.ipynb)*, *[Lab3.ipynb](code/Lab3.ipynb)* - all the notebooks from the previous tasks. Used to reproduce helper indices. 
-
-
-After performing the [installation steps](#installation), here is how to use the app in real time.
-
-Prerequisites:
-1. Databricks Cluster: should be turned on
-2. VM:
-   - Should be turned on
-   - Then, 
-   ```bash
-   cd dubus_app
-   sudo docker-compose up &
-   ```
-   
-If this is your first time running the app, please refer to **first time setup** part in the [installation guide](./INSTALLATION.md#first-time-setup).
-It also includes 
 Once the app is up and running you can use it easily, just follow the in-app instructions. 
 
 The in-app instructions describe in detail the different options that you have when using the application, and also thorough instructions on how to use the app.
 
+Follow the [installation steps](#installation) to install the app on your machine.
+
+Additionally, if this is your first time running the app, please refer to **first time setup** part in the [installation guide](./INSTALLATION.md#first-time-setup).
+
 Notes,
 
-1. As we are displaying our app inside the Databricks, you must have a valid Databricks account inorder to interact with the app. 
+1. As we are displaying our app inside Databricks, you must have a valid Databricks account inorder to interact with the app. 
 2. The VM server must be on for the app to work.
 3. There are security limitations. Please see the **notes section** in the [installation guide](./INSTALLATION.md#notes) on how to deal with them.
+
+
+Code Structure
+==============
+
+The project consists of multiple notebooks that work and interact together.
+
+*Lab4_Preparations* consists of the preprocessing part, in which we also train and save the ML model, and the relevant helper models (indexer and encoder, for categorical variables).
+
+*Lab4_UI_part1* - The front-end of the DUBUS - Dublin Bus Trips Congestion App (first part).
+
+*Lab4_UI_part2* - The front-end of the DUBUS - Dublin Bus Trips Analytics App (second part).
+
+*Lab4_functions* includes all the functions we used through out the project. Includes back-end connection functions (such as connecting to Elastic) as well. 
+
+In addition, *Lab4_Main*  includes explanations and descriptions about the reasoning behind Part 1 (Preprocessing & App) and Part 2 (EDA, Article and App). 
 
 Installation
 ============
