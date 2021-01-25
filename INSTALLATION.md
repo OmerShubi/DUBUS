@@ -36,7 +36,8 @@ This part is done on your VM (e.g. Azure).
    ```
    
    
-### First Time Setup
+First Time Setup
+================
 
 If this is your first time running the app, you will need to set up the Elastic indices.
 
@@ -47,3 +48,14 @@ Additionally, you might need to modify the Kibana dashboards to match the newly 
 Additionally, you might need to modify some paths, such as the IP of the VM, in the *[Lab4_functions](code/Lab4_functions.ipynb)* `Global Parameters` section.
 
 Finally, run *Lab4_UI_part1.ipynb* and *Lab4_UI_part2.ipynb*.
+
+
+
+Notes
+=====
+- we tested the system on specific versions of Spark, DBR, Elastic, Kibana, VM OS and such, and cannot provide guarentees for other software versions.
+- DataBricks requires embedded webpages to support the HTTPS standard for secure connections. Therefore, you must set up a SSL Certificate on your VM for it to work.
+- As we are displaying our app inside the Databricks, you must have a valid Databricks account inorder to interact with the app.
+- The server must be on for the app to work.
+- Due to security limitations, first-time visitors must first open the Kibana interface (VM IP on port `5601`) in their browser, allow the necessary permissions, and only then the app will be displayed correctly.
+- If you encounter a situation where changes in filters result in reruning the whole process, open the databricks notebook and make sure that the databricks widgets option in the notebook is set to `on_widget_change: do nothing`.
