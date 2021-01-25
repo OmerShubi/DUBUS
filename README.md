@@ -27,7 +27,11 @@ Table of contents
 
 Project Overview
 ================
+Welcome to DUBUS! Your Dublin bus trip app for congestion prediction and trip analytics!
+
 The app includes two parts - **DUBUS - Dublin Bus Trips Congestion** and **DUBUS - Dublin Bus Trips Analytics**.
+
+We gather raw bus sensor data, aggregate it into meaningful bus trips and present it to you for your city planning or other business uses.  
 
 DUBUS - Dublin Bus Trips Congestion
 -----------------------------------
