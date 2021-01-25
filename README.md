@@ -63,15 +63,15 @@ Prerequisites:
    sudo docker-compose up &
    ```
    
-If this is your first time running the app, please refer to first time setup part in the [installation guide](./INSTALLATION.md#first-time-setup).
-
-Once the app is up and running you can use it easily, just follow the in-app instructions.
+If this is your first time running the app, please refer to **first time setup** part in the [installation guide](./INSTALLATION.md#first-time-setup).
+It also includes 
+Once the app is up and running you can use it easily, just follow the in-app instructions. 
 
 Notes,
 
 1. As we are displaying our app inside the Databricks, you must have a valid Databricks account inorder to interact with the app. 
 2. The VM server must be on for the app to work.
-3. There are security limitations. Please see the notes in [Lab4_Main.html](Lab4_Main.html) on how to deal with them.
+3. There are security limitations. Please see the **notes section** in the [installation guide](./INSTALLATION.md#notes) on how to deal with them.
 
 Installation
 ============
