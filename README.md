@@ -65,7 +65,8 @@ Notes,
 1. As we are displaying our app inside Databricks, you must have a valid Databricks account inorder to interact with the app. 
 2. The VM server must be on for the app to work.
 3. There are security limitations. Please see the **notes section** in the [installation guide](./INSTALLATION.md#notes) on how to deal with them.
-
+4. When using your own data make sure it follows the accepted schema. In general, records should include the fields -
+`'_id', 'delay', 'congestion', 'lineId', 'vehicleId', 'timestamp', 'areaId', 'areaId1', 'areaId2', 'areaId3', 'gridID', 'actualDelay', 'longitude', 'latitude', 'currentHour', 'dateTypeEnum', 'angle', 'ellapsedTime', 'vehicleSpeed', 'distanceCovered', 'journeyPatternId', 'direction', 'busStop', 'poiId', 'poiId2', 'systemTimestamp', 'calendar', 'filteredActualDelay', 'atStop', 'dateType', 'justStopped', 'justLeftStop', 'probability', 'anomaly', 'loc'`. Specific types examples and can be found in the notebooks. 
 
 Code Structure
 ==============
