@@ -18,9 +18,9 @@ Table of contents
 <!--ts-->
   * [Project Overview](#project-overview)
   * [DUBUS - Dublin Bus Trips Congestion](#dubus-dublin-bus-trips-congestion)
+  * [DUBUS - Dublin Bus Trips Analytics](#dubus-dublin-bus-trips-analytics)
   * [Usage](#usage)
   * [Code Structure](#code-structure)
-  * [DUBUS - Dublin Bus Trips Analytics](#dubus-dublin-bus-trips-analytics)
   * [Installation](#installation)
 <!--te-->
 
