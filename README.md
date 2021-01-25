@@ -35,7 +35,7 @@ We gather raw bus sensor data, aggregate it into meaningful bus trips and presen
 
 DUBUS - Dublin Bus Trips Congestion
 -----------------------------------
-This part of the application includes an interactive map that displays the journeys with congestion, from uploaded stream or batch bus data.
+This part of the application includes an interactive map that displays the journeys with predicted congestion, from uploaded stream or batch bus data.
 
 <img src='assets/App1.jpeg' width=600/>
 
