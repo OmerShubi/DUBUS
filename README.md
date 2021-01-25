@@ -67,6 +67,8 @@ If this is your first time running the app, please refer to **first time setup**
 It also includes 
 Once the app is up and running you can use it easily, just follow the in-app instructions. 
 
+The in-app instructions describe in detail the different options that you have when using the application, and also thorough instructions on how to use the app.
+
 Notes,
 
 1. As we are displaying our app inside the Databricks, you must have a valid Databricks account inorder to interact with the app. 
