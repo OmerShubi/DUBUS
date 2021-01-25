@@ -26,6 +26,17 @@ Table of contents
 Project Overview
 ================
 
+The project consists of multiple notebooks that work and interact together.
+
+*Lab4_Preparations* consists of the preprocessing part, in which we also train and save the ML model, and the relevant helper models (indexer and encoder, for categorical variables).
+
+*Lab4_UI_part1* - The front-end of the first part of our App.
+
+*Lab4_UI_part2* - The front-end of the second part of our App.
+
+*Lab4_functions* includes all the functions we used through out the project. Includes back-end connection functions (such as connecting to Elastic) as well. 
+
+In addition, *Lab4_Main*  includes explanations and descriptions about the reasoning behind Part 1 (Preprocessing & App) and Part 2 (EDA, Article and App). 
 
 The first part of the application includes an interactive map that displays the journeys with congestion, from uploaded stream or batch bus data.
 
