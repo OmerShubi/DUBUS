@@ -1,5 +1,7 @@
+
 # DUBUS - Dublin Bus Trips :bus::bus::bus:
 
+<img src='assets/DUBUS Logo.jfif' width=200/>
 
 
 ## :loudspeaker::loudspeaker::loudspeaker: IMPORTANT NOTE :loudspeaker::loudspeaker::loudspeaker:
