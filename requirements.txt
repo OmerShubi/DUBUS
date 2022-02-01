@@ -5,5 +5,5 @@ elasticsearch==7.10.1
 pandas==0.24.2
 matplotlib==3.0.3
 numpy==1.16.2
-IPython==7.4.0
+IPython==7.16.3
 libify
