@@ -1,6 +1,6 @@
 sklearn==0.20.3
 scipy==1.2.1
-pyspark==2.4.6.dev0
+pyspark==3.2.2
 elasticsearch==7.10.1
 pandas==0.24.2
 matplotlib==3.0.3
